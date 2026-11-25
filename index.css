@@ -1,0 +1,77 @@
+
+/* Website Background */
+
+body {
+    background-color: #fff3e0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Main Heading */
+
+h1 {
+    color: darkorange;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Subheadings */
+
+h2 {
+    color: brown;
+    font-size: 25px;
+}
+
+/* Paragraph */
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Food Images */
+
+img {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid orange;
+}
+
+/* Lists */
+
+ul {
+    background-color: white;
+    padding: 20px 20px 20px 40px;
+    border-radius: 10px;
+}
+
+ol {
+    background-color: white;
+    padding: 20px 20px 20px 40px;
+    border-radius: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+/* Links */
+
+a {
+    color: darkorange;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Mouse Hover */
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
