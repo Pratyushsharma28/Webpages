@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MediStock  - Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">Medi<span>Stock</span></h1>
+        <nav>
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="inventory.html">Inventory</a>
+            <a href="add-medicine.html">Add Medicine</a>
+            <a href="expiry-alerts.html">Expiry Alerts</a>
+            <a href="ai-insights.html">AI Insights</a>
+            <a href="reports.html">Reports</a>
+        </nav>
+        <a href="login.html" class="logout">Logout</a>
+    </header>
+    <main class="dashboard">
+        <section class="welcome">
+            <div>
+                <h2>Welcome to MediStock </h2>
+                <p>Manage your pharmacy smarter with an easy inventory management system.</p>
+            </div>
+            <a href="add-medicine.html" class="add-button">+ Add Medicine</a>
+        </section>
+        <h2 class="section-title">Stock Overview</h2>
+        <section class="stats">
+            <div class="stat-card">
+                <h3>Total Medicines</h3>
+                <p>50</p>
+                <span>Medicines in inventory</span>
+            </div>
+            <div class="stat-card">
+                <h3>Available Stock</h3>
+                <p>1200</p>
+                <span>Total available units</span>
+            </div>
+            <div class="stat-card">
+                <h3>Low Stock</h3>
+                <p>5</p>
+                <span>Medicines need restocking</span>
+            </div>
+            <div class="stat-card">
+                <h3>Expired Medicines</h3>
+                <p>2</p>
+                <span>Medicines require attention</span>
+            </div>
+        </section>
+        <section class="recent-section">
+            <h2>Recent Activities</h2>
+            <div class="activity">
+                <span class="activity-icon">+</span>
+                <div>
+                    <h3>New Medicine Added</h3>
+                    <p>Paracetamol added to inventory</p>
+                </div>
+            </div>
+            <div class="activity">
+                <span class="activity-icon">↻</span>
+                <div>
+                    <h3>Stock Updated</h3>
+                    <p>Vitamin C stock updated</p>
+                </div>
+            </div>
+            <div class="activity">
+                <span class="activity-icon">!</span>
+                <div>
+                    <h3>Expiry Alert</h3>
+                    <p>2 medicines have expired</p>
+                </div>
+            </div>
+        </section>
+        <section class="quick-links">
+            <h2>Quick Actions</h2>
+            <a href="inventory.html">View Inventory →</a>
+            <a href="add-medicine.html">Add New Medicine →</a>
+            <a href="expiry-alerts.html">Check Expiry Alerts →</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 MediStock | Pharmacy Management System</p>
+    </footer>
+</body>
+</html>

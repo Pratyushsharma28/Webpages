@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MediStock - Add Medicine</title>
+    <link rel="stylesheet" href="add-medicine.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">Medi<span>Stock</span></h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="inventory.html">Inventory</a>
+            <a href="add-medicine.html">Add Medicine</a>
+            <a href="expiry-alerts.html">Expiry Alerts</a>
+            <a href="ai-insights.html">AI Insights</a>
+            <a href="reports.html">Reports</a>
+        </nav>
+        <a href="login.html" class="logout">Logout</a>
+    </header>
+    <h2>Add Medicine</h2>
+    <p>Manage your pharmacy inventory by adding new medicines.</p>
+    <form class="medicine-form">
+        <h2>Medicine Details</h2>
+        <label>Medicine Name</label>
+        <input type="text" placeholder="Enter medicine name" required>
+        <label>Medicine ID</label>
+        <input type="text" placeholder="Enter medicine ID" required>
+        <label>Category</label>
+        <select required>
+            <option value="">Select Category</option>
+            <option>Tablet</option>
+            <option>Syrup</option>
+            <option>Capsule</option>
+            <option>Injection</option>
+            <option>Other</option>
+        </select>
+        <label>Quantity</label>
+        <input type="number" placeholder="Enter quantity" min="0" required>
+        <label>Price (₹)</label>
+        <input type="number" placeholder="Enter price" min="0" step="0.01" required>
+        <label>Manufacturing Date</label>
+        <input type="date" required>
+        <label>Expiry Date</label>
+        <input type="date" required>
+        <label>Supplier Name</label>
+        <input type="text" placeholder="Enter supplier name">
+        <label>Medicine Description</label>
+        <input type="text" placeholder="Enter medicine description">
+        <input type="submit" value="Add Medicine">
+        <input type="reset" value="Clear Form">
+    </form>
+    <hr>
+    <p>© 2026 MediStock | Pharmacy Management System</p>
+</body>
+</html>

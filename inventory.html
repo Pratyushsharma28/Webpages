@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MediStock  - Inventory</title>
+    <link rel="stylesheet" href="inventory.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h1 class="logo">Medi<span>Stock</span></h1>
+
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="inventory.html" class="active">Inventory</a>
+        <a href="add-medicine.html">Add Medicine</a>
+        <a href="expiry-alerts.html">Expiry Alerts</a>
+        <a href="ai-insights.html">AI Insights</a>
+        <a href="reports.html">Reports</a>
+    </nav>
+
+    <a href="login.html" class="logout">Logout</a>
+</header>
+
+<main>
+    <h2>Medicine Inventory</h2>
+    <p>Manage and track all your pharmacy medicines.</p>
+
+    <a href="add-medicine.html" class="add">+ Add Medicine</a>
+
+    <section class="cards">
+        <div><h3>Total Medicines</h3><h2>50</h2></div>
+        <div><h3>Available Stock</h3><h2>1200</h2></div>
+        <div><h3>Low Stock</h3><h2>5</h2></div>
+        <div><h3>Out of Stock</h3><h2>3</h2></div>
+    </section>
+
+    <section class="inventory-box">
+        <h2>All Medicines</h2>
+
+        <input type="text" placeholder="Search medicine...">
+
+        <select>
+            <option>All Categories</option>
+            <option>Tablet</option>
+            <option>Syrup</option>
+            <option>Capsule</option>
+        </select>
+
+        <button>Search</button>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Medicine</th>
+                <th>Category</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Expiry</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>MED001</td>
+                <td>Paracetamol</td>
+                <td>Tablet</td>
+                <td>500</td>
+                <td>₹25</td>
+                <td>12-08-2027</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>MED002</td>
+                <td>Vitamin C</td>
+                <td>Tablet</td>
+                <td>150</td>
+                <td>₹60</td>
+                <td>15-05-2027</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>MED003</td>
+                <td>Cough Syrup</td>
+                <td>Syrup</td>
+                <td>20</td>
+                <td>₹90</td>
+                <td>10-12-2026</td>
+                <td>Low Stock</td>
+            </tr>
+        </table>
+    </section>
+</main>
+
+<footer>© 2026 MediStock </footer>
+
+</body>
+</html>
+
+

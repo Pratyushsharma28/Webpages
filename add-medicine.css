@@ -1,0 +1,188 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+font-family:Arial,sans-serif;
+background:#EAF3F4;
+color:#172323;
+padding:25px 4%;
+}
+h1{
+background:white;
+color:#111;
+padding:22px 30px;
+margin:-25px -4.35% 25px;
+font-size:27px;
+border-bottom:1px solid #DCEAEA;
+}
+h2{
+color:#159B91;
+font-size:28px;
+margin:25px 0;
+}
+a{
+display:inline-block;
+text-decoration:none;
+color:#555;
+font-weight:bold;
+padding:12px 17px;
+border-radius:7px;
+transition:.3s;
+}
+a:hover{
+background:#159B91;
+color:white;
+}
+hr{
+border:none;
+border-top:1px solid #D5E4E4;
+margin:20px 0;
+}
+body>h2:last-of-type{
+text-align:center;
+color:#159B91;
+margin:30px 0 15px;
+}
+.medicine-form{
+max-width:700px;
+margin:25px auto 40px;
+background:white;
+padding:35px 40px;
+border-radius:15px;
+border:1px solid #DFEBEB;
+box-shadow:0 10px 30px rgba(0,0,0,.07);
+}
+.medicine-form label{
+display:block;
+font-size:14px;
+font-weight:bold;
+color:#303B3B;
+margin:18px 0 9px;
+}
+.medicine-form input,.medicine-form select{
+width:100%;
+padding:14px 15px;
+border:1px solid #DCE6E6;
+border-radius:8px;
+background:#F8FBFB;
+color:#222;
+font-size:14px;
+transition:.3s;
+}
+.medicine-form input:focus,.medicine-form select:focus{
+outline:none;
+border-color:#159B91;
+box-shadow:0 0 0 3px rgba(21,155,145,.12);
+background:white;
+}
+.medicine-form input::placeholder{
+color:#A0ADAD;
+}
+.medicine-form input[type="submit"],.medicine-form input[type="reset"]{
+width:48%;
+margin-top:28px;
+padding:14px;
+border:none;
+border-radius:8px;
+background:#168F89;
+color:white;
+font-weight:bold;
+font-size:14px;
+cursor:pointer;
+transition:.3s;
+}
+.medicine-form input[type="submit"]:hover{
+background:#10766F;
+transform:translateY(-2px);
+box-shadow:0 5px 14px rgba(21,155,145,.2);
+}
+.medicine-form input[type="reset"]{
+background:#E9F1F1;
+color:#263B3B;
+}
+.medicine-form input[type="reset"]:hover{
+background:#D8E7E7;
+}
+body>p:last-child{
+text-align:center;
+color:#788888;
+margin:30px 0;
+}
+@media(max-width:600px){
+body{
+padding:15px;
+}
+h1{
+margin:-15px -15px 20px;
+}
+.medicine-form{
+padding:22px 18px;
+}
+.medicine-form input[type="submit"],.medicine-form input[type="reset"]{
+width:100%;
+}
+}
+
+.navbar{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:white;
+padding:15px 30px;
+margin:-25px -4.35% 30px;
+border-bottom:1px solid #E5EEEE;
+gap:15px;
+}
+.logo{
+font-size:27px;
+color:#111;
+font-weight:bold;
+white-space:nowrap;
+margin:0;
+}
+.logo span{
+color:#159B91;
+}
+.navbar nav{
+display:flex;
+align-items:center;
+justify-content:center;
+flex-wrap:wrap;
+gap:5px;
+}
+.navbar nav a{
+color:#555;
+text-decoration:none;
+font-size:14px;
+padding:12px 13px;
+border-radius:7px;
+transition:.3s;
+}
+.navbar nav a:hover{
+background:#E5F5F2;
+color:#159B91;
+}
+.navbar .logout{
+background:#159B91;
+color:white;
+padding:11px 20px;
+border-radius:7px;
+text-decoration:none;
+font-size:14px;
+white-space:nowrap;
+}
+.navbar .logout:hover{
+background:#10766F;
+}
+@media(max-width:900px){
+.navbar{
+flex-wrap:wrap;
+}
+.navbar nav{
+order:3;
+width:100%;
+}
+}
